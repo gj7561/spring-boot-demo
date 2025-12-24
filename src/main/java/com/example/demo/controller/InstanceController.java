@@ -15,6 +15,6 @@ public class InstanceController {
     @GetMapping("/instance") // Maps the root URL
     public String hello() {
 
-        return "Hello You are using"+appInstance+"instance"; // This text will appear in the browser
+        return "Hello You are using "+appInstance+" instance"; // This text will appear in the browser
     }
 }
